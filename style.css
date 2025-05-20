@@ -1,0 +1,66 @@
+html {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: #222;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #681414;
+    padding: 20px;
+    border-bottom: 5px solid white;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80px;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.zona-principal {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.zona-joc {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.zona-missatge {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+    background-color: #0b4b6c;
+}
+
+.guess {
+    background: none;
+    border: 4px solid #eee;
+    font-family: inherit;
+    color: inherit;
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 10rem;
+    text-align: center;
+}
